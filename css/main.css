@@ -8,7 +8,7 @@
 }
 
 .hero {
-    background-image: url(../EFB112.png);
+    background-image: url(../imagenes/EFB112.png);
 }
 
 .hero_header {
@@ -162,18 +162,18 @@
 
 .grid_item1 {
     grid-area: item1;
-    background-image: url("../5e2316cc629ede9cd6646163efeafc5486161751-6240x4160.jpg");
+    background-image: url("../imagenes/5e2316cc629ede9cd6646163efeafc5486161751-6240x4160.jpg");
     height: 400px;
 }
 
 .grid_item2 {
     grid-area: item2;
-    background-image: url("../210995.avif");
+    background-image: url("../imagenes/150026444-un-menú-saludable-de-hamburguesas-con-queso-en-la-mesa-servido-con-papas-fritas-tomate-cebolla-y.jpg");
 }
 
 .grid_item3 {
     grid-area: item3;
-    background-image: url("../150026444-un-menú-saludable-de-hamburguesas-con-queso-en-la-mesa-servido-con-papas-fritas-tomate-cebolla-y.jpg");
+    background-image: url("../imagenes/210995.avif");
 }
 
 /* ENJOY */
@@ -312,8 +312,8 @@
     align-items: center;
     background-repeat: no-repeat;
     background-image: 
-    url(../burguer1.png),
-    url(../fondo3.jpg);
+    url(../imagenes/burguer1.png),
+    url(../imagenes/fondo3.jpg);
     background-size: 
     300px,
     150px;
@@ -387,6 +387,69 @@
     cursor: pointer;
 }
 
+/* Fin pagina contacto */ /* Comienzo pagina nosotros */
+
+.imgmc {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.grid1 {
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "story1 story2"
+    "story3 story4" ;
+    gap: 3rem;
+    text-align: center;
+}
+
+.grid_story {
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center center;
+    padding: 1rem;
+    background-color: #EFB117;
+    max-width: 80vh;
+}
+
+.grid_img img {
+width: 100%;
+height: 50vh;
+}
+
+.grid1 h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding-top: 1rem;
+    letter-spacing: 1px;
+}
+
+.grid1 p {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.grid_story1 {
+    grid-area: story1;
+}
+
+.grid_story2 {
+    grid-area: story2;
+}
+
+.grid_story3 {
+    grid-area: story3;
+}
+
+.grid_story4 {
+    grid-area: story4;
+}
+
+
 
 /* MEDIA */
 
@@ -459,7 +522,7 @@
 
     .events .inner_right {
     order: -1;
-}
+    }
 
     .imgevents {
         max-width: 100%;
@@ -480,6 +543,4 @@
         display: flex;
         flex-direction: column;
     }
-
-
 }
