@@ -301,6 +301,12 @@
     background-color: #EFB117 ;
 }
 
+.pie {
+    font-family: 'Alfa Slab One', cursive;
+    display: flex;
+    justify-content: center;
+}
+
 /* RESERVATION */
 
 .reservation {
@@ -540,6 +546,16 @@ height: 50vh;
 
     .reservation_form {
         width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgmc {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .grid1 {
         display: flex;
         flex-direction: column;
     }
