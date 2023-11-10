@@ -108,11 +108,20 @@
             <input class="date" type="text" placeholder="Date" name="date" onfocus="(this.type='date')" onblur="(this. type='text')">
             <input class="time" type="text" placeholder="Time" name="time" onfocus="(this.type='time')" onblur="(this. type='text')">
             <input class="people" type="text" placeholder="People" name="people">
-            <input class="button" type="button" value="Find a table">
+            <input class="button" type="submit" value="Find a table">
         </form>
+        <div id="reservation_details" class="reserva-creada">
+            <h2>Reservation Details</h2>
+            <p>Name:<span id="output_name"></span></p>
+            <p>Email:<span id="output_email"></span></p>
+            <p>Date:<span id="output_date"></span></p>
+            <p>Time:<span id="output_time"></span></p>
+            <p>People:<span id="output_people"></span></p>
+        </div>
     </section>
     <footer class="pie">
         <p> copy © Gonzalo Miguel - 2023</p>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
