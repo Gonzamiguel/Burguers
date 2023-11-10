@@ -594,4 +594,21 @@ height: 50vh;
         width: 22rem;
     }
 
+    .reserva-creada {
+        width: auto; 
+    }
+    
+    .reserva-creada h2 {
+        text-align: center; 
+    }
+    
+    .reserva-creada p {
+        flex-direction: column; 
+        text-align: center; 
+    }
+    
+    .reserva-creada span {
+        margin-left: 0; 
+        margin-top: 5px; 
+    }
 }
